@@ -37,6 +37,7 @@
 
 (defvar zenburn-colors-alist
   '(("zenburn-fg+1"     . "#FFFFEF")
+    ("zenburn-fg+05"    . "#E5E5E0")
     ("zenburn-fg"       . "#DCDCCC")
     ("zenburn-fg-1"     . "#656555")
     ("zenburn-bg-2"     . "#000000")
@@ -97,7 +98,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(link ((t (:foreground ,zenburn-yellow :underline t :weight bold))))
    `(link-visited ((t (:foreground ,zenburn-yellow-2 :underline t :weight normal))))
    `(default ((t (:foreground ,zenburn-fg :background ,zenburn-bg))))
-   `(cursor ((t (:foreground ,zenburn-fg :background ,zenburn-fg+1))))
+   `(cursor ((t (:foreground ,zenburn-fg :background ,zenburn-fg+05))))
    `(escape-glyph ((t (:foreground ,zenburn-yellow :bold t))))
    `(fringe ((t (:foreground ,zenburn-fg :background ,zenburn-bg-1))))
    `(header-line ((t (:foreground ,zenburn-yellow
