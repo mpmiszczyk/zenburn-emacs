@@ -144,7 +144,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(mode-line-inactive
      ((t (:foreground ,zenburn-green-1
                       :background ,zenburn-bg ))))
-   `(region ((,class (:background ,zenburn-bg-1))
+   `(region ((,class (:background ,zenburn-bg+1))
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,zenburn-bg+2))))
    `(trailing-whitespace ((t (:background ,zenburn-red))))
